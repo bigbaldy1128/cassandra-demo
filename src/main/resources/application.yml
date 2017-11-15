@@ -1,0 +1,5 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: test
+      contact-points: 172.24.62.181
