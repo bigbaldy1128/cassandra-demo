@@ -7,4 +7,4 @@
 ## 启动
 service cassandra start
 ## 命令行
-cqlsh 172.24.62.181 //连接
+cqlsh --request-timeout=60 172.24.62.181 //连接
